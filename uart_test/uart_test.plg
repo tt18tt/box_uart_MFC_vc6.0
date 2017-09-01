@@ -1,0 +1,30 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: uart_test - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/uart_test.res" /d "NDEBUG" /d "_AFXDLL" "D:\联祥瑞\208项目\枪柜\MFC\串口测试程序\uart_test\uart_test.rc"" 
+Creating temporary file "C:\Users\uniriho\AppData\Local\Temp\RSP68A8.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/uart_test.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\联祥瑞\208项目\枪柜\MFC\串口测试程序\uart_test\uart_testDlg.cpp"
+]
+Creating command line "cl.exe @C:\Users\uniriho\AppData\Local\Temp\RSP68A8.tmp" 
+Creating command line "link.exe /nologo /subsystem:windows /incremental:no /pdb:"Release/uart_test.pdb" /machine:I386 /out:"Release/uart_test.exe"  ".\Release\mscomm.obj" ".\Release\StdAfx.obj" ".\Release\uart_test.obj" ".\Release\uart_testDlg.obj" ".\Release\uart_test.res" "
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+uart_testDlg.cpp
+D:\联祥瑞\208项目\枪柜\MFC\串口测试程序\uart_test\uart_testDlg.cpp(339) : warning C4700: local variable 'test' used without having been initialized
+Linking...
+
+
+
+<h3>Results</h3>
+uart_test.exe - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>
